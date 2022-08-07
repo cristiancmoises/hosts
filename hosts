@@ -9,20 +9,14 @@
 127.0.0.1 shadowmoses openbsd { # Replace here with your info.
 127.0.0.1 facebook.com { # Yes. With this we are block the social network.
 127.0.0.1 facebook.com.br { #
-# ALWAYS make sure "localhost name" is the first line in your
-/hosts file
+# ALWAYS make sure "localhost name" is the first line in your /hosts file
 # or your system or browser may malfunction!
-
 # See https://en.wikipedia.org/wiki/Hosts_file to find the standard
 locations
-# of the HOSTS file for your particular OS. In Linux (and probably BSD),
-it's
+# of the HOSTS file for your particular OS. In Linux (and probably BSD),it's
 # usually under /etc/hosts
-
-# Yes, I know there are some redundant entries in this block--you can
-grep it
-# and remove them yourself if it really matters. I'm too lazy to do it
-myself.
+# Yes, I know there are some redundant entries in this block--you can grep it
+# and remove them yourself if it really matters. I'm too lazy to do it myself.
 
 127.0.0.1 localhost
 
@@ -31,8 +25,6 @@ myself.
 158.101.202.236 outlook.com
 158.101.202.236 https://outlook.office.com
 158.101.202.236 outlook.office.com
-158.101.202.236 52.96.91.34
-158.101.202.236 https://autotravi.freshdesk.com
 
 #first, let's redirect English google.com search to Startpage
 158.101.202.236 64.233.160.0 - 64.233.191.255 #}
@@ -50,24 +42,20 @@ myself.
 158.101.202.236 216.58.192.0 - 216.58.223.255
 158.101.202.236 google.com.br
 158.101.202.236 google.com       #} redirects all to SEARX.be
-158.101.202.236 reddit.com       #} 158.101.202.236 is the IP address
-for the SEARX.be
+158.101.202.236 reddit.com       #} 158.101.202.236 is the IP address for the SEARX.be
 158.101.202.236 google.ca        #}
 158.101.202.236 https://www.google.ca    #}
 158.101.202.236 google.co.uk     #} SEARX is much more secure a
-158.101.202.236 https://www.google.co.uk #} search engine and far more
-privacy-friendly
-158.101.202.236 google.ie        #} than Google itself could ever hope
-to be.
+158.101.202.236 https://www.google.co.uk #} search engine and far more privacy-friendly
+158.101.202.236 google.ie        #} than Google itself could ever hope to be.
 158.101.202.236 https://www.google.ie    #}
 
 158.101.202.236 googleapis.com #for compatibility with sites that
-158.101.202.236 apis.google.com     #dependencies on them some reason or
-other
+158.101.202.236 apis.google.com     #dependencies on them some reason or other
 
 #Youtube
 158.101.202.236 https://youtube.com              #} you know the story
-
+158.101.202.236 https://youtu.be
 158.101.202.236 i0.ytimg.com             #} mostly thumbnails, user
 pictures and
 158.101.202.236 i1.ytimg.com             #} other unnecessary graphic
@@ -81,8 +69,7 @@ considerably
 
 158.101.202.236 s0.2mdn.net              #} comment out with 127.0.0.1
 everything in this segment
-158.101.202.236 static.2mdn.net          #} from this point down if you
-need to use
+158.101.202.236 static.2mdn.net          #} from this point down if you need to use
 158.101.202.236 https://www.youtube-nocookie.com #} YT, since these next few
 servers are its
 158.101.202.236 youtube-nocookie.com     #} dependencies and can cause
@@ -94,22 +81,19 @@ blocked
 player is)
 
 #various other G services - main pages
-158.101.202.236 https://accounts.google.com  #}if you need to use G-mail | Dont
-need? Just add 127.0.0.1 here!
+158.101.202.236 https://accounts.google.com  #}if you need to use G-mail | Dont need? Just add 127.0.0.1 here!
 158.101.202.236 https://mail.google.com
 158.101.202.236 https://gmail.com
 158.101.202.236 sites.google.com
 158.101.202.236 code.google.com
 158.101.202.236 maps.google.com
-158.101.202.236 groups.google.com #} real Usenetters don't use Google
-Groups
+158.101.202.236 groups.google.com #} real Usenetters don't use Google Groups
 158.101.202.236 gg.google.com     #}
 158.101.202.236 plusone.google.com
 158.101.202.236 fusion.google.com
 158.101.202.236 plus.google.com
 158.101.202.236 goog.le
-158.101.202.236 youtu.be #youtu.be/AaBbCcDdEeFf is the same as
-youtube.com/watch?v=AaBbCcDdEeFf
+158.101.202.236 youtu.be #youtu.be/AaBbCcDdEeFf is the same as youtube.com/watch?v=AaBbCcDdEeFf
 
 #and here's where everything else originates. What a mess!
 158.101.202.236 domains.googlesyndication.com
@@ -166,8 +150,7 @@ youtube.com/watch?v=AaBbCcDdEeFf
 158.101.202.236  2975c.v.fwmrm.net  #}
 158.101.202.236  m.v.fwmrm.net      #}
 158.101.202.236  .fwmrm.net         #}
-158.101.202.236  ytimg.googleusercontent.com # needless Youtube-related
-graphic clutter
+158.101.202.236  ytimg.googleusercontent.com # needless Youtube-related graphic clutter
 158.101.202.236  html5shiv.googlecode.com
 158.101.202.236  b3.caspio.com
 158.101.202.236  ajax.microsoft.com
