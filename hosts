@@ -1,0 +1,324 @@
+##########################################
+  GNU nano 5.9                       /etc/hosts                                 
+]#------------------------------------------------------------------------------
+# UNIX - 9.7 REDIRECT ALL GOOGLE TO SEARX!!!
+# Processed template files:
+# Paste here: /etc/hosts (UNIX)
+# Or Paste here: /Windows/System32/Drivers/Hosts.txt (Windows)
+#------------------------------------------------------------------------------
+127.0.0.1 shadowmoses openbsd { # Replace here with your info.
+127.0.0.1 facebook.com { # Yes. With this we are block the social network.
+127.0.0.1 facebook.com.br { #
+# ALWAYS make sure "localhost name" is the first line in your
+/hosts file
+# or your system or browser may malfunction!
+
+# See https://en.wikipedia.org/wiki/Hosts_file to find the standard
+locations
+# of the HOSTS file for your particular OS. In Linux (and probably BSD),
+it's
+# usually under /etc/hosts
+
+# Yes, I know there are some redundant entries in this block--you can
+grep it
+# and remove them yourself if it really matters. I'm too lazy to do it
+myself.
+
+127.0.0.1 localhost
+
+#OUTLOOK
+158.101.202.236 https://outlook.com
+158.101.202.236 outlook.com
+158.101.202.236 https://outlook.office.com
+158.101.202.236 outlook.office.com
+158.101.202.236 52.96.91.34
+158.101.202.236 https://autotravi.freshdesk.com
+
+#first, let's redirect English google.com search to Startpage
+158.101.202.236 64.233.160.0 - 64.233.191.255 #}
+158.101.202.236 66.102.0.0 - 66.102.15.255
+158.101.202.236 66.249.64.0 - 66.249.95.255
+158.101.202.236 72.14.192.0 - 72.14.255.255
+158.101.202.236 74.125.0.0 - 74.125.255.255
+158.101.202.236 209.85.128.0 - 209.85.255.255
+158.101.202.236 216.239.32.0 - 216.239.63.255
+158.101.202.236 64.18.0.0 - 64.18.15.255
+158.101.202.236 108.177.8.0 - 108.177.15.255
+158.101.202.236 172.217.0.0 - 172.217.31.255
+158.101.202.236 173.194.0.0 - 173.194.255.255
+158.101.202.236 207.126.144.0 - 207.126.159.255
+158.101.202.236 216.58.192.0 - 216.58.223.255
+158.101.202.236 google.com.br
+158.101.202.236 google.com       #} redirects all to SEARX.be
+158.101.202.236 reddit.com       #} 158.101.202.236 is the IP address
+for the SEARX.be
+158.101.202.236 google.ca        #}
+158.101.202.236 https://www.google.ca    #}
+158.101.202.236 google.co.uk     #} SEARX is much more secure a
+158.101.202.236 https://www.google.co.uk #} search engine and far more
+privacy-friendly
+158.101.202.236 google.ie        #} than Google itself could ever hope
+to be.
+158.101.202.236 https://www.google.ie    #}
+
+158.101.202.236 googleapis.com #for compatibility with sites that
+158.101.202.236 apis.google.com     #dependencies on them some reason or
+other
+
+#Youtube
+158.101.202.236 https://youtube.com              #} you know the story
+
+158.101.202.236 i0.ytimg.com             #} mostly thumbnails, user
+pictures and
+158.101.202.236 i1.ytimg.com             #} other unnecessary graphic
+clutter. Feel
+158.101.202.236 i2.ytimg.com             #} free to leave blocked, as it
+also
+158.101.202.236 i3.ytimg.com             #} improves YT's loading time
+considerably
+158.101.202.236 i4.ytimg.com             #}
+158.101.202.236 i5.ytimg.com             #}
+
+158.101.202.236 s0.2mdn.net              #} comment out with 127.0.0.1
+everything in this segment
+158.101.202.236 static.2mdn.net          #} from this point down if you
+need to use
+158.101.202.236 https://www.youtube-nocookie.com #} YT, since these next few
+servers are its
+158.101.202.236 youtube-nocookie.com     #} dependencies and can cause
+major
+158.101.202.236 youtube-noscript.com     #} functionality problems if
+blocked
+158.101.202.236 https://www.youtube-noscript.com #}
+158.101.202.236 s.ytimg.com              #} (s.ytimg.com is where the
+player is)
+
+#various other G services - main pages
+158.101.202.236 https://accounts.google.com  #}if you need to use G-mail | Dont
+need? Just add 127.0.0.1 here!
+158.101.202.236 https://mail.google.com
+158.101.202.236 https://gmail.com
+158.101.202.236 sites.google.com
+158.101.202.236 code.google.com
+158.101.202.236 maps.google.com
+158.101.202.236 groups.google.com #} real Usenetters don't use Google
+Groups
+158.101.202.236 gg.google.com     #}
+158.101.202.236 plusone.google.com
+158.101.202.236 fusion.google.com
+158.101.202.236 plus.google.com
+158.101.202.236 goog.le
+158.101.202.236 youtu.be #youtu.be/AaBbCcDdEeFf is the same as
+youtube.com/watch?v=AaBbCcDdEeFf
+
+#and here's where everything else originates. What a mess!
+158.101.202.236 domains.googlesyndication.com
+158.101.202.236 video-stats.video.google.com
+158.101.202.236 4.afs.googleadservices.com
+158.101.202.236 pagead2.googleadservices.com
+158.101.202.236 partner.googleadservices.com
+158.101.202.236 https://www.googleadservices.com
+158.101.202.236 apps5.oingo.com
+158.101.202.236  https://www.appliedsemantics.com
+158.101.202.236  service.urchin.com
+158.101.202.236  pagead2.googlesyndication.com
+158.101.202.236  googlesyndication.com
+158.101.202.236  ads.googlesyndication.com
+158.101.202.236  https://www.googlesyndication.com
+158.101.202.236  adwords.google.com
+158.101.202.236  googleanalytics.com
+158.101.202.236  ssl.googleanalytics.com
+158.101.202.236  https://www.googleanalytics.com
+158.101.202.236  google-analytics.com
+158.101.202.236  .google-analytics.com
+158.101.202.236  ssl.google-analytics.com
+158.101.202.236  https://www.google-analytics.com
+158.101.202.236  https://www.googletagservices.com
+158.101.202.236  ssl.googletagservices.com
+158.101.202.236  .googletagservices.com
+158.101.202.236  googletagservices.com
+158.101.202.236  https://www.gstatic.com
+158.101.202.236  csi.gstatic.com
+158.101.202.236  doubleclick.com
+158.101.202.236  .doubleclick.com
+158.101.202.236  gan.doubleclick.net
+158.101.202.236  doubleclick.net
+158.101.202.236  .doubleclick.net
+158.101.202.236  ad.doubleclick.net
+158.101.202.236  ad-g.doubleclick.net
+158.101.202.236  googleads.g.doubleclick.net
+158.101.202.236  ad.ie.doubleclick.net
+158.101.202.236  static.doubleclick.net
+158.101.202.236  partner.googleadservices.com
+158.101.202.236  ssl.gstatic.com
+158.101.202.236  clients.google.com
+158.101.202.236  clients1.google.com
+158.101.202.236  clients2.google.com
+158.101.202.236  clients3.google.com
+158.101.202.236  clients4.google.com
+158.101.202.236  clients5.google.com
+158.101.202.236  clients6.google.com
+158.101.202.236  clients7.google.com
+158.101.202.236  clients8.google.com
+158.101.202.236  clients9.google.com
+158.101.202.236  clients0.google.com
+158.101.202.236  sassets.vevo.com   #} some Youtube-related ad servers
+158.101.202.236  2975c.v.fwmrm.net  #}
+158.101.202.236  m.v.fwmrm.net      #}
+158.101.202.236  .fwmrm.net         #}
+158.101.202.236  ytimg.googleusercontent.com # needless Youtube-related
+graphic clutter
+158.101.202.236  html5shiv.googlecode.com
+158.101.202.236  b3.caspio.com
+158.101.202.236  ajax.microsoft.com
+158.101.202.236  buttons.googlesyndication.com
+158.101.202.236  googleusercontent.com
+158.101.202.236  lh0.googleusercontent.com
+158.101.202.236  lh1.googleusercontent.com
+158.101.202.236  lh2.googleusercontent.com
+158.101.202.236  lh3.googleusercontent.com
+158.101.202.236  lh4.googleusercontent.com
+158.101.202.236  lh5.googleusercontent.com
+158.101.202.236  lh6.googleusercontent.com
+158.101.202.236  lh7.googleusercontent.com
+158.101.202.236  lh8.googleusercontent.com
+158.101.202.236  lh9.googleusercontent.com
+158.101.202.236  s.googleusercontent.com
+158.101.202.236  s0.googleusercontent.com
+158.101.202.236  s1.googleusercontent.com
+158.101.202.236  s2.googleusercontent.com
+158.101.202.236  s3.googleusercontent.com
+158.101.202.236  s4.googleusercontent.com
+158.101.202.236  s5.googleusercontent.com
+158.101.202.236  s6.googleusercontent.com
+158.101.202.236  s7.googleusercontent.com
+158.101.202.236  s8.googleusercontent.com
+158.101.202.236  s9.googleusercontent.com
+158.101.202.236  chrome.google.com
+158.101.202.236  fonts.googleapis.com
+158.101.202.236  checkout.google.com
+158.101.202.236  .ggpht.com
+158.101.202.236  lh1.ggpht.com
+158.101.202.236  lh2.ggpht.com
+158.101.202.236  lh3.ggpht.com
+158.101.202.236  lh4.ggpht.com
+158.101.202.236  lh5.ggpht.com
+158.101.202.236  lh6.ggpht.com
+158.101.202.236 fonts.googleapis.com
+158.101.202.236  gp1.googleusercontent.com
+158.101.202.236  gp2.googleusercontent.com
+158.101.202.236  gp3.googleusercontent.com
+158.101.202.236  gp4.googleusercontent.com
+158.101.202.236  gp5.googleusercontent.com
+158.101.202.236  gp6.googleusercontent.com
+158.101.202.236  gp7.googleusercontent.com
+158.101.202.236  chart.apis.google.com
+
+#crap from Doubleclick - mostly ad/spyware servers
+158.101.202.236  conversion-pixel.invitemedia.com
+158.101.202.236  analytics-api-samples.googlecode.com
+158.101.202.236  m1.2mdn.net
+158.101.202.236  rmcdn.2mdn.net
+158.101.202.236  rmcdn.f.2mdn.net
+158.101.202.236  n339.asp-cc.com
+158.101.202.236  ads.cc-dt.com
+158.101.202.236  clickserve.cc-dt.com
+158.101.202.236  creative.cc-dt.com
+158.101.202.236  clickserve.dartsearch.net
+158.101.202.236  clickserve.eu.dartsearch.net
+158.101.202.236  clickserve.uk.dartsearch.net
+158.101.202.236  doubleclick.net
+158.101.202.236  ad.doubleclick.net
+158.101.202.236  ad-g.doubleclick.net
+158.101.202.236  ad2.doubleclick.net
+158.101.202.236  ad.ae.doubleclick.net
+158.101.202.236  ad.ar.doubleclick.net
+158.101.202.236  ad.at.doubleclick.net
+158.101.202.236  ad.au.doubleclick.net
+158.101.202.236  ad.be.doubleclick.net
+158.101.202.236  ad.br.doubleclick.net
+158.101.202.236  ad.ca.doubleclick.net
+158.101.202.236  ad.ch.doubleclick.net
+158.101.202.236  ad.cl.doubleclick.net
+158.101.202.236  ad.cn.doubleclick.net
+158.101.202.236  ad.de.doubleclick.net
+158.101.202.236  ad.dk.doubleclick.net
+158.101.202.236  ad.es.doubleclick.net
+158.101.202.236  ad.fi.doubleclick.net
+158.101.202.236  ad.fr.doubleclick.net
+158.101.202.236  ad.gr.doubleclick.net
+158.101.202.236  ad.hk.doubleclick.net
+158.101.202.236  ad.hr.doubleclick.net
+158.101.202.236  ad.hu.doubleclick.net
+158.101.202.236  ad.ie.doubleclick.net
+158.101.202.236  ad.in.doubleclick.net
+158.101.202.236  ad.jp.doubleclick.net
+158.101.202.236  ad.kr.doubleclick.net
+158.101.202.236  ad.it.doubleclick.net
+158.101.202.236  ad.nl.doubleclick.net
+158.101.202.236  ad.no.doubleclick.net
+158.101.202.236  ad.nz.doubleclick.net
+158.101.202.236  ad.pl.doubleclick.net
+158.101.202.236  ad.pt.doubleclick.net
+158.101.202.236  ad.ro.doubleclick.net
+158.101.202.236  ad.ru.doubleclick.net
+158.101.202.236  ad.se.doubleclick.net
+158.101.202.236  ad.sg.doubleclick.net
+158.101.202.236  ad.si.doubleclick.net
+158.101.202.236  ad.terra.doubleclick.net
+158.101.202.236  ad.th.doubleclick.net
+158.101.202.236  ad.tw.doubleclick.net
+158.101.202.236  ad.uk.doubleclick.net
+158.101.202.236  ad.us.doubleclick.net
+158.101.202.236  ad.za.doubleclick.net
+158.101.202.236  ad.n2434.doubleclick.net
+158.101.202.236  ad-emea.doubleclick.net
+158.101.202.236  creatives.doubleclick.net
+158.101.202.236  dfp.doubleclick.net
+158.101.202.236  feedads.g.doubleclick.net
+158.101.202.236  fls.doubleclick.net
+158.101.202.236  fls.uk.doubleclick.net
+158.101.202.236  googleads.g.doubleclick.net
+158.101.202.236  ir.doubleclick.net
+158.101.202.236  iv.doubleclick.net
+158.101.202.236  m.doubleclick.net
+158.101.202.236  motifcdn.doubleclick.net
+158.101.202.236  motifcdn2.doubleclick.net
+158.101.202.236  n4052ad.doubleclick.net
+158.101.202.236  n4403ad.doubleclick.net
+158.101.202.236  n479ad.doubleclick.net
+158.101.202.236  paypalssl.doubleclick.net
+158.101.202.236  pubads.g.doubleclick.net
+158.101.202.236  s2.video.doubleclick.net
+158.101.202.236  survey.g.doubleclick.net
+158.101.202.236  anon.doubleclick.speedera.net #not sure if this is an
+actual DC server or not, but here it is
+158.101.202.236  doubleclick.ne.jp
+158.101.202.236  https://www3.doubleclick.net
+158.101.202.236  https://www.doubleclick.net
+158.101.202.236  doubleclick.com
+158.101.202.236  https://www2.doubleclick.com
+158.101.202.236  https://www3.doubleclick.com
+158.101.202.236  https://www.doubleclick.com
+158.101.202.236  tpc.googlesyndication.com
+158.101.202.236  ad.rs.doubleclick.net
+158.101.202.236  affiliate.2mdn.net
+158.101.202.236  clickserve.us2.dartsearch.net
+158.101.202.236  ad-apac.doubleclick.net
+158.101.202.236  ad.mo.doubleclick.net
+158.101.202.236  adclick.g.doubleclick.net
+158.101.202.236  gan.doubleclick.net
+158.101.202.236  googleads2.g.doubleclick.net
+158.101.202.236  n4061ad.hk.doubleclick.net
+158.101.202.236  securepubads.g.doubleclick.net
+158.101.202.236  ad.bg.doubleclick.net
+158.101.202.236  cm.g.doubleclick.net
+158.101.202.236  stats.g.doubleclick.net
+158.101.202.236  fls.au.doubleclick.net
+158.101.202.236  log2.quintelligence.com
+158.101.202.236  https://www.destinationurl.com
+158.101.202.236  doubleclick.shockwave.com
+158.101.202.236  https://www3.webhostingtalk.com
+158.101.202.236  ad.mirror.co.uk
+158.101.202.236  host3.adhese.be
+158.101.202.236  mcmads.mediacapital.pt
